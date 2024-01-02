@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    background-color: #141824;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.bgc-yell{
+    position: relative;
+    z-index: 11;
+}
+
+.bgc-yell::before{
+    content: "";
+    inset: 0;
+    left: 18%;
+    top: -5px;
+    z-index: -111;
+    width: 85%;
+    height: 35px;
+    background-color: #FFB600;
+    position: absolute;
+}
+
+/* ----------- */
+
+.bgc-yell-1{
+    position: relative;
+    z-index: 11;
+}
+
+.bgc-yell-1::before{
+    content: "";
+    inset: 0;
+    left: 24%;
+    top: -5px;
+    z-index: -111;
+    width: 85%;
+    height: 47px;
+    background-color: #FFB600;
+    position: absolute;
+}
+
+/* ----------- */
+
+.sec-6 .bgc-yell-1::before{
+    left: 26%;
+    width: 70%;
+}
+
+/* ----------- */
+
+.sec-7 .bgc-yell-1::before{
+    left: 12%;
+    width: 60%;
+}
+
+.overly {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+}
+
+.ov-1{
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+.ov-2{
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+/* ====================Sec-1======================= */
+
+.sec-1{
+    position: relative;
+    background: url(images/1.jpeg) center/cover no-repeat;
+}
+
+.sec-1-text{
+    position: relative;
+    z-index: 1;
+}
+
+.sec-1 h1{
+    font-size: 3.6rem;
+    margin-bottom: 90px;
+}
+
+.sec-1 i {
+    font-size: 40px;
+    color: #FFB600;
+}
+
+/* ====================Sec-2======================= */
+
+.sec-2{
+    background-color: #141824;
+}
+
+.sec-2-top{
+    padding: 90px 0px;
+}
+
+.sec-2-icon {
+    margin-bottom: 20px;
+}
+
+.sec-2-icon i {
+    font-size: 30px;
+}
+
+.sec-2-child-i i {
+    font-size: 13px;
+}
+
+/* ====================Sec-3======================= */
+
+.sec-3{
+    background-color: #E8EAE3;
+}
+
+.sec-3-right{
+    min-height: 530px;
+    background: url(images/2.jpeg) center/cover no-repeat;
+}
+
+.sec-3 i {
+    font-size: 30px;
+    color: #FFB600;
+    padding: 7px 9px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid #FFB600;
+}
+
+/* ====================Sec-4======================= */
+
+.sec-4{
+    background-color: #141824;
+}
+
+/* ==================Sec-5========================= */
+
+.pic-3, .pic-4, .pic-5, .pic-6{
+    min-height: 403px;
+}
+
+.pic-3{
+    background: url(images/3.jpeg) center/cover no-repeat;
+}
+.pic-4{
+    background: url(images/4.jpg) center/cover no-repeat;
+}
+.pic-5{
+    background: url(images/5.jpeg) center/cover no-repeat;
+}
+.pic-6{
+    background: url(images/6.jpeg) center/cover no-repeat;
+}
+
+/* ==================Sec-6========================= */
+
+
+.sec-6{
+    background-color: #E8EAE3;
+}
+
+.sec-6-left{
+    min-height: 510px;
+    background: url(images/7.jpeg) center/cover no-repeat;
+}
+
+.sec-6-icon-1{
+    margin-bottom: 14px;
+}
+
+.sec-6 i {
+    font-size: 30px;
+    color: #FFB600;
+}
+
+/* ==================Sec-7========================= */
+
+.sec-7{
+    padding: 130px 0px;
+    background-color: #141824;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #B3B3B3;
+    background-color: transparent;  
+    margin-bottom: 20px;
+}
+
+.sec-7 button{
+    color: black;
+    background-color: white;
+}
+
+.sec-7-icon{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sec-7-icon i {
+    font-size: 35px;
+    color: #FFB600;
+}
+
+.fa-envelope{
+    position: absolute;
+    left: 18px;
+    top: -12px;
+}
+
+.icon-box i {
+    font-size: 25px;
+    color: #FFB600;
+    margin-right: 14px;
+}
+
+/* ==================Sec-8========================= */
+
+.sec-8{
+    min-height: 350px;
+    position: relative;
+    background: url(images/8.jpeg) center/cover no-repeat;
+}
+
+.sec-8 .container{
+    z-index: 1;
+}
+
+.sec-8 i{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/* ==================Footer========================= */
+
+footer{
+    color: white;
+    background-color: #333333;
+}
+
+a{
+    color: white;
+}
+
+
+/* @media(max-width:576px){
+    .w-sm-100{
+        width: 100%;
+    }
+    .w-sm-90{
+        margin: 0px auto;
+        width: 90%;
+    }
+    #id{
+        padding: 0;
+    }
+} */

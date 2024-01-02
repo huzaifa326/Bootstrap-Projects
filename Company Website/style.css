@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.bttn {
+    border: none;
+    padding: 22px 33px;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+.bttn:hover{
+    cursor: pointer;
+    background-color: rgb(196, 196, 196);
+}
+
+.linee {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+.py-128{
+    padding-block: 128px;
+}
+
+/* ======================== */
+
+.container-edi {
+    width: 100%;
+}
+
+.navbar a {
+    font-weight: 700;
+    color: rgb(214, 210, 207);
+}
+
+/* ======================== */
+
+.con-1 {
+    min-height: 100vh;
+    background: linear-gradient(rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8)), url("images/main.jpg");    background-size: cover;
+}
+
+.con-1-text h1 {
+    font-size: 3.5rem;
+}
+
+.con-1-text p {
+    font-size: 1.15rem;
+}
+.con-1-text button{
+    color: white;
+    background-color: rgb(244,98,58);
+}
+.con-1-text .bttn:hover{
+    cursor: pointer;
+    background-color: #cf6142;
+}
+
+/* ======================== */
+.con-2 {
+    padding: 130px 0px;
+    background-color: rgb(244, 98, 58);
+}
+.con-2 p {
+    color: rgb(255, 230, 206);
+}
+
+/* ======================== */
+.con-3{
+    padding: 130px 0px;
+}
+.con-3-box h3 {
+    font-size: 20px;
+}
+
+.con-3-box p {
+    font-size: 15px;
+    color: rgb(108, 124, 142);
+}
+
+.iconsss i {
+    font-size: 35px;
+}
+
+/* ======================== */
+
+.imggg img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ======================== */
+
+.con-5 {
+    padding: 130px 0px;
+    background-color: rgb(33, 37, 41);
+}
+
+/* ======================== */
+.con-6{
+    padding: 130px 0px;
+}
+
+.con-6 p {
+    font-size: 15px;
+    color: rgb(108, 124, 142);
+}
+
+input, textarea {
+    border-radius: 10px;
+    border: 1px solid rgb(206,212,218);
+}
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+input:focus, textarea:focus {
+    border: 5px solid rgb(243, 182, 165);
+    outline-color: rgb(248,153,127); 
+}
+
+.con-6 i {
+    font-size: 35px;
+}
+.con-6 button{
+    width: 100%;
+    background-color: rgb(248,153,127);
+}
+
+.con-6 .bttn:hover{
+    cursor: pointer;
+    background-color: rgb(248,153,127);
+}
+/* ======================== */
+
+footer {
+    background-color: rgb(248, 249, 250);
+}
+
+/* ======================== */
+
+
+@media(max-width:991px){
+    .con-1-text h1 {
+        font-size: 2.25rem;
+    }
+}
